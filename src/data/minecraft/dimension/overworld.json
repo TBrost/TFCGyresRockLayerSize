@@ -10,33 +10,32 @@
       "spawn_center_x": 0,
       "spawn_center_z": 0,
       "rock_layer_settings": {
-        "rock_layer_scale": 64,
+        "rock_layer_scale": 16,
         "rocks": [
-          "tfc:chalk",
-          "tfc:chert",
-          "tfc:claystone",
-          "tfc:conglomerate",
-          "tfc:dolomite",
-          "tfc:limestone",
-          "tfc:shale",
-          "tfc:gneiss",
-          "tfc:marble",
-          "tfc:phyllite",
-          "tfc:quartzite",
-          "tfc:schist",
-          "tfc:slate",
           "tfc:diorite",
+          "tfc:limestone",
+          "tfc:dacite",
+          "tfc:rhyolite",
+          "tfc:phyllite",
+          "tfc:chert",
+          "tfc:gneiss",
+          "tfc:conglomerate",
+          "tfc:marble",
+          "tfc:shale",
+          "tfc:dolomite",
+          "tfc:chalk",
+          "tfc:slate",
+          "tfc:schist",
           "tfc:gabbro",
+          "tfc:basalt",
           "tfc:granite",
           "tfc:andesite",
-          "tfc:basalt",
-          "tfc:dacite",
-          "tfc:rhyolite"
+          "tfc:quartzite",
+          "tfc:claystone"
         ]
       },
       "temperature_settings": "tfc:default",
       "rainfall_settings": "tfc:default"
     }
-  },
-  "forge:use_server_seed": true
+  }
 }
