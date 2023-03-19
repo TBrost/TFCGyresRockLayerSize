@@ -10,7 +10,7 @@
       "spawn_center_x": 0,
       "spawn_center_z": 0,
       "rock_layer_settings": {
-        "rock_layer_scale": 16,
+        "rock_layer_scale": 64,
         "rocks": [
           "tfc:diorite",
           "tfc:limestone",
