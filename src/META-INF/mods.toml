@@ -34,7 +34,7 @@ credits="Thanks to the TFC Crew, especially EERussianGuy for the motivation!" #o
 authors = "Gaelmare" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description = '''
-Lowcode mod to decrease TFC rock layer size in worldgen. Recommended for SSP and anyone who wants lower exploration requirements.
+Lowcode mod to decrease TFC rock layer size by 50% in worldgen. Recommended for SSP and anyone who wants lower exploration requirements.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.tfcgyres_rocklayersize]]
