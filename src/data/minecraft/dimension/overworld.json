@@ -37,5 +37,6 @@
       "temperature_settings": "tfc:default",
       "rainfall_settings": "tfc:default"
     }
-  }
+  },
+  "forge:use_server_seed": true
 }
