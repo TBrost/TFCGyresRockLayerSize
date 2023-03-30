@@ -1,6 +1,6 @@
 #!/bin/bash
 project=TFCGyres-RockLayerSize
-version=1.0
+version=1.1
 
 file=${project}-${version}.jar
 rm -f ${file}
