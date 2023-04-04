@@ -12,4 +12,4 @@ This is recommended for single player (SSP) mode and for anyone else who wants l
 Implements the datapack rock_layer_settings option as shown here:  https://terrafirmacraft.github.io/Documentation/1.18.x/worldgen/dimension/#rock-layer-settings
 
 BUILD
-run build.sh to create the jar
+run build.sh to create the jar. Note that this is a very simple datapack loaded as a mod.
