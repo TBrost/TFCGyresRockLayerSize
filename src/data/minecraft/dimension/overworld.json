@@ -34,8 +34,16 @@
           "tfc:claystone"
         ]
       },
-      "temperature_settings": "tfc:default",
-      "rainfall_settings": "tfc:default"
+      "temperature_settings":
+      {
+        "scale": 10000,
+        "endless_poles": false
+      },
+      "rainfall_settings":
+      {
+        "scale": 10000,
+        "endless_poles": false
+      }
     }
   },
   "forge:use_server_seed": true

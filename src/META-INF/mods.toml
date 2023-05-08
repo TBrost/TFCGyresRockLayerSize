@@ -15,13 +15,13 @@ license = "EUPL-1.2" #for TFC compatibility
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId = "tfcgyres_rocklayersize" #mandatory
+modId = "tfcpyros_adjustedgen" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version = "1.1" #mandatory
+version = "1.0" #mandatory
 # A display name for the mod
-displayName = "TFCGyres-RockLayerSize" #mandatory
+displayName = "TFCPyros-AdjustedGen" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -29,22 +29,22 @@ displayName = "TFCGyres-RockLayerSize" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="pack.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks to the TFC Crew, especially EERussianGuy for the motivation!" #optional
+credits="Thanks to the TFC Devs, and Gaelmare for the example on how to use the 1.18 tfc world customization." #optional
 # A text field displayed in the mod UI
-authors = "Gaelmare" #optional
+authors = "Pyrocomic" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description = '''
-Lowcode mod to decrease TFC rock layer size by 50% in worldgen. Recommended for SSP and anyone who wants lower exploration requirements.
+Mod to reduce climate and geology ranges in TFC by 50% in worldgen. Rock layers are more diverse (due do decreased size), and rain/temp change faster over distance due to cycling every 20000 blocks rather than every 40000.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.tfcgyres_rocklayersize]]
+[[dependencies.tfcpyros_adjustedgen]]
 modId = "minecraft"
 mandatory = true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
 versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
-[[dependencies.tfcgyres_rocklayersize]] #optional
+[[dependencies.tfcpyros_adjustedgen]] #optional
 # the modid of the dependency
 modId="tfc" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
